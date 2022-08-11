@@ -10,17 +10,17 @@
 @import "abstract/z-index";
 
 :root {
-  @each $name, $color in $webfatorial-colors {
-    --color-#{$name}: #{$color};
-  }
+	@each $name, $color in $webfatorial-colors {
+		--color-#{$name}: #{$color};
+	}
 
-  @each $name, $color in $gmx-colors {
-    --color-#{$name}: #{$color};
-  }
+	@each $name, $color in $gmx-colors {
+		--color-#{$name}: #{$color};
+	}
 
-  @each $name, $color in $social-media-colors {
-    --color-#{$name}: #{$color};
-  }
+	@each $name, $color in $social-media-colors {
+		--color-#{$name}: #{$color};
+	}
 }
 
 // ==========================================================================
@@ -43,7 +43,7 @@
 
 @import "layout/alfa__header";
 @import "layout/alfa__footer";
-
+@import "layout/alfa__introducao";
 
 // ==========================================================================
 // Component
@@ -57,22 +57,20 @@
 // Client
 // ==========================================================================
 
- @import "client/bicicleta";
- @import "client/seguro";
- @import "client/bicicletas-lista";
- @import "client/bicicletas";
- @import "client/contato";
- @import "client/lojas";
- @import "client/depoimento";
- @import "client/introducao";
- @import "client/parceiros";
- @import "client/tecnologia";
- @import "client/orcamento";
- @import "client/perguntas";
- @import "client/seguros";
- @import "client/vantagens";
- @import "client/termos";
-
+@import "client/bicicleta";
+@import "client/seguro";
+@import "client/bicicletas-lista";
+@import "client/bicicletas";
+@import "client/contato";
+@import "client/lojas";
+@import "client/depoimento";
+@import "client/parceiros";
+@import "client/tecnologia";
+@import "client/orcamento";
+@import "client/perguntas";
+@import "client/seguros";
+@import "client/vantagens";
+@import "client/termos";
 
 // ==========================================================================
 // Page
