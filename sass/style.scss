@@ -33,32 +33,46 @@
 // Base
 // ==========================================================================
 
-@import "base/elements";
-@import "base/generics";
+@import "base/alfa__global";
 @import "base/a11y";
+@import "base/alfa__colors";
 
 // ==========================================================================
 // Layout
 // ==========================================================================
 
-@import "layout/l-header";
-@import "layout/l-banner";
-@import "layout/l-content";
-@import "layout/l-footer";
+@import "layout/alfa__header";
+@import "layout/alfa__footer";
 
 
 // ==========================================================================
 // Component
 // ==========================================================================
 
-@import "component/c-carousel";
-@import "component/c-buttom";
+@import "component/alfa__formulario";
+@import "component/alfa__tipografias";
+@import "component/alfa__componentes";
 
 // ==========================================================================
-// State
+// Client
 // ==========================================================================
 
-// @import "state/is-";
+ @import "client/bicicleta";
+ @import "client/seguro";
+ @import "client/bicicletas-lista";
+ @import "client/bicicletas";
+ @import "client/contato";
+ @import "client/lojas";
+ @import "client/depoimento";
+ @import "client/introducao";
+ @import "client/parceiros";
+ @import "client/tecnologia";
+ @import "client/orcamento";
+ @import "client/perguntas";
+ @import "client/seguros";
+ @import "client/vantagens";
+ @import "client/termos";
+
 
 // ==========================================================================
 // Page
